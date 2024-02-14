@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <time>weather app</time>
+        <link rel="stylesheet" href="style css.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    </head>
+    <body>
+        <div class="container">
+            <h2 class="heading">WEATHER APP</h2>
+            <div class="form">
+                <input type="text" class="input" placeholder="Enter Your Location"></input>
+                <button class="search">
+                    <i class="fa-solid fa-magnifying-glass search-image"></i>
+                </button>
+                <div class="wheather">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmCb6pgdaFaEfyyRK-G8WPGCeitnwv6L2LJ0cGznrW1dv8XFui0sDqynkFWEJjo0r42Zw&usqp=CAU" alt="weather" class="weather-image">
+                </div>
+                <div class="weather-box">
+                    <p class="temperature"><sup></sup></p>
+                    <p class="description">Description</p>
+                </div>
+                <div class="weather-details">
+                    <div class="humidity">
+                        <i class="fa-solid fa-droplet"></i>
+                        <div class="humidity-text">
+                            <div class="humi-number"></div>
+                            <div id="humi-text">Humidity</div>
+                        </div>
+                    </div>
+                    <div class="wind">
+                        <i class="fa-solid fa-wind"></i>
+                        <div class="wind-text">
+                            <div class="wind-speed"></div>
+                            <div id="wind-text">Wind Speed</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="script js.js"></script>
+    </body>
+</html>
